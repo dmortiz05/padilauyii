@@ -42,10 +42,10 @@ class Difusor extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'iddifusor' => 'Iddifusor',
-            'nombredifusor' => 'Nombredifusor',
-            'descripciondifusor' => 'Descripciondifusor',
-            'cantidaddifusor' => 'Cantidaddifusor',
+            
+            'nombredifusor' => 'Nombre',
+            'descripciondifusor' => 'Descripción',
+            'cantidaddifusor' => 'Cantidad disponible',
         ];
     }
 }

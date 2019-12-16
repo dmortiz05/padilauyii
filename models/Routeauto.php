@@ -42,10 +42,10 @@ class Routeauto extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idroute' => 'Idroute',
-            'nombreroute' => 'Nombreroute',
-            'descripcionroute' => 'Descripcionroute',
-            'cantidadroute' => 'Cantidadroute',
+            
+            'nombreroute' => 'Nombre',
+            'descripcionroute' => 'Descripción',
+            'cantidadroute' => 'Cantidad disponible',
         ];
     }
 }

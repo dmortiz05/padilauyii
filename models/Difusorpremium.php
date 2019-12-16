@@ -42,10 +42,10 @@ class Difusorpremium extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'iddifusorpremium' => 'Iddifusorpremium',
-            'nombredifusorpremium' => 'Nombredifusorpremium',
-            'descripciondifusorpremium' => 'Descripciondifusorpremium',
-            'cantidaddifusorpremium' => 'Cantidaddifusorpremium',
+            
+            'nombredifusorpremium' => 'Nombre',
+            'descripciondifusorpremium' => 'Descripción',
+            'cantidaddifusorpremium' => 'Cantidad disponible',
         ];
     }
 }

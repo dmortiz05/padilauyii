@@ -42,10 +42,10 @@ class Mini extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idmini' => 'Idmini',
-            'nombremini' => 'Nombremini',
-            'descripcionmini' => 'Descripcionmini',
-            'cantidadmini' => 'Cantidadmini',
+            
+            'nombremini' => 'Nombre',
+            'descripcionmini' => 'Descripción',
+            'cantidadmini' => 'Cantidad disponible',
         ];
     }
 }

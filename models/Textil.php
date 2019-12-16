@@ -42,10 +42,10 @@ class Textil extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idtextil' => 'Idtextil',
-            'nombretextil' => 'Nombretextil',
-            'descripciontextil' => 'Descripciontextil',
-            'cantidadtextil' => 'Cantidadtextil',
+            
+            'nombretextil' => 'Nombre',
+            'descripciontextil' => 'Descripción',
+            'cantidadtextil' => 'Cantidad disponible',
         ];
     }
 }

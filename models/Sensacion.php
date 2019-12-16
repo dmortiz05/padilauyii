@@ -41,10 +41,10 @@ class Sensacion extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idsensacion' => 'Idsensacion',
-            'nombresensacion' => 'Nombresensacion',
-            'descripcionsensacion' => 'Descripcionsensacion',
-            'cantidadsensacion' => 'Cantidadsensacion',
+            
+            'nombresensacion' => 'Nombre',
+            'descripcionsensacion' => 'Descripción',
+            'cantidadsensacion' => 'Cantidad disponible',
         ];
     }
 }
