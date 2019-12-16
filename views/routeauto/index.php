@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\RouteautoSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Routeautos';
+$this->title = 'Route 66';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="routeauto-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Routeauto', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Nuevo Route 66', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'idroute',
+            
             'nombreroute',
             'descripcionroute',
             'cantidadroute',

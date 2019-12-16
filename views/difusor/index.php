@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\DifusorSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Difusors';
+$this->title = 'Difusores';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="difusor-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Difusor', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Nuevo Difusor', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'iddifusor',
+            
             'nombredifusor',
             'descripciondifusor',
             'cantidaddifusor',

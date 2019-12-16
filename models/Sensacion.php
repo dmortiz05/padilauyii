@@ -9,6 +9,7 @@ use Yii;
  *
  * @property int $idsensacion
  * @property string $nombresensacion
+ * @property string $descripcionsensacion
  * @property int $cantidadsensacion
  */
 class Sensacion extends \yii\db\ActiveRecord
@@ -27,10 +28,10 @@ class Sensacion extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['idsensacion', 'nombresensacion', 'cantidadsensacion'], 'required'],
-            [['idsensacion', 'cantidadsensacion'], 'integer'],
+            [['nombresensacion', 'descripcionsensacion', 'cantidadsensacion'], 'required'],
+            [['cantidadsensacion'], 'integer'],
             [['nombresensacion'], 'string', 'max' => 45],
-            [['idsensacion'], 'unique'],
+            [['descripcionsensacion'], 'string', 'max' => 255],
         ];
     }
 
@@ -42,6 +43,7 @@ class Sensacion extends \yii\db\ActiveRecord
         return [
             'idsensacion' => 'Idsensacion',
             'nombresensacion' => 'Nombresensacion',
+            'descripcionsensacion' => 'Descripcionsensacion',
             'cantidadsensacion' => 'Cantidadsensacion',
         ];
     }

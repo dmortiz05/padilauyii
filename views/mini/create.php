@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Mini */
 
-$this->title = 'Create Mini';
-$this->params['breadcrumbs'][] = ['label' => 'Minis', 'url' => ['index']];
+$this->title = 'Nuevo Mini';
+$this->params['breadcrumbs'][] = ['label' => 'Mini', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="mini-create">

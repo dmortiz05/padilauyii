@@ -42,10 +42,10 @@ class Aceite extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idaceite' => 'Idaceite',
-            'nombreaceite' => 'Nombreaceite',
-            'descripcionaceite' => 'Descripcionaceite',
-            'cantidadaceite' => 'Cantidadaceite',
+            
+            'nombreaceite' => 'Nombre',
+            'descripcionaceite' => 'Descripción',
+            'cantidadaceite' => 'Cantidad disponible',
         ];
     }
 }

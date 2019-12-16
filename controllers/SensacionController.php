@@ -3,14 +3,14 @@
 namespace app\controllers;
 
 use Yii;
-use app\models\Sensacion;
-use app\models\SensacionSearch;
+use app\models\sensacion;
+use app\models\sensacionSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * SensacionController implements the CRUD actions for Sensacion model.
+ * SensacionController implements the CRUD actions for sensacion model.
  */
 class SensacionController extends Controller
 {
@@ -30,12 +30,12 @@ class SensacionController extends Controller
     }
 
     /**
-     * Lists all Sensacion models.
+     * Lists all sensacion models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new SensacionSearch();
+        $searchModel = new sensacionSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,7 +45,7 @@ class SensacionController extends Controller
     }
 
     /**
-     * Displays a single Sensacion model.
+     * Displays a single sensacion model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -58,13 +58,13 @@ class SensacionController extends Controller
     }
 
     /**
-     * Creates a new Sensacion model.
+     * Creates a new sensacion model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Sensacion();
+        $model = new sensacion();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->idsensacion]);
@@ -76,7 +76,7 @@ class SensacionController extends Controller
     }
 
     /**
-     * Updates an existing Sensacion model.
+     * Updates an existing sensacion model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -96,7 +96,7 @@ class SensacionController extends Controller
     }
 
     /**
-     * Deletes an existing Sensacion model.
+     * Deletes an existing sensacion model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -110,15 +110,15 @@ class SensacionController extends Controller
     }
 
     /**
-     * Finds the Sensacion model based on its primary key value.
+     * Finds the sensacion model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Sensacion the loaded model
+     * @return sensacion the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Sensacion::findOne($id)) !== null) {
+        if (($model = sensacion::findOne($id)) !== null) {
             return $model;
         }
 

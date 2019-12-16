@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Aerosol */
 
-$this->title = 'Create Aerosol';
-$this->params['breadcrumbs'][] = ['label' => 'Aerosols', 'url' => ['index']];
+$this->title = 'Nuevo Aerosol';
+$this->params['breadcrumbs'][] = ['label' => 'Aerosoles', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="aerosol-create">

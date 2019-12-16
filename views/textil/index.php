@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\TextilSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Textils';
+$this->title = 'Textiles';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="textil-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Textil', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Nuevo Textil', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'idtextil',
+            
             'nombretextil',
             'descripciontextil',
             'cantidadtextil',

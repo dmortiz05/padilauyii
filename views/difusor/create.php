@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Difusor */
 
-$this->title = 'Create Difusor';
-$this->params['breadcrumbs'][] = ['label' => 'Difusors', 'url' => ['index']];
+$this->title = 'Nuevo Difusor';
+$this->params['breadcrumbs'][] = ['label' => 'Difusores', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="difusor-create">

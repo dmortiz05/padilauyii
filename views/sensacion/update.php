@@ -3,12 +3,12 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Sensacion */
+/* @var $model app\models\sensacion */
 
-$this->title = 'Update Sensacion: ' . $model->idsensacion;
-$this->params['breadcrumbs'][] = ['label' => 'Sensacions', 'url' => ['index']];
+$this->title = 'Modificar Sensaciones: ' . $model->idsensacion;
+$this->params['breadcrumbs'][] = ['label' => 'Sensaciones', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->idsensacion, 'url' => ['view', 'id' => $model->idsensacion]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Actualizar';
 ?>
 <div class="sensacion-update">
 

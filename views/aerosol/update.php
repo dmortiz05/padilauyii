@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Aerosol */
 
-$this->title = 'Update Aerosol: ' . $model->idaerosol;
-$this->params['breadcrumbs'][] = ['label' => 'Aerosols', 'url' => ['index']];
+$this->title = 'Modificar Aerosol: ' . $model->idaerosol;
+$this->params['breadcrumbs'][] = ['label' => 'Aerosoles', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->idaerosol, 'url' => ['view', 'id' => $model->idaerosol]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Actualizar';
 ?>
 <div class="aerosol-update">
 

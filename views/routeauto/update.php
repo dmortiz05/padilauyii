@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Routeauto */
 
-$this->title = 'Update Routeauto: ' . $model->idroute;
-$this->params['breadcrumbs'][] = ['label' => 'Routeautos', 'url' => ['index']];
+$this->title = 'Modificar Route 66: ' . $model->idroute;
+$this->params['breadcrumbs'][] = ['label' => 'Route 66', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->idroute, 'url' => ['view', 'id' => $model->idroute]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Actualizar';
 ?>
 <div class="routeauto-update">
 

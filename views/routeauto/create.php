@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Routeauto */
 
-$this->title = 'Create Routeauto';
-$this->params['breadcrumbs'][] = ['label' => 'Routeautos', 'url' => ['index']];
+$this->title = 'Nuevo Route 66';
+$this->params['breadcrumbs'][] = ['label' => 'Route 66', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="routeauto-create">

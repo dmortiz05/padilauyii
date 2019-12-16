@@ -4,12 +4,12 @@ namespace app\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Sensacion;
+use app\models\sensacion;
 
 /**
- * SensacionSearch represents the model behind the search form of `app\models\Sensacion`.
+ * sensacionSearch represents the model behind the search form of `app\models\sensacion`.
  */
-class SensacionSearch extends Sensacion
+class sensacionSearch extends sensacion
 {
     /**
      * {@inheritdoc}
@@ -18,7 +18,7 @@ class SensacionSearch extends Sensacion
     {
         return [
             [['idsensacion', 'cantidadsensacion'], 'integer'],
-            [['nombresensacion'], 'safe'],
+            [['nombresensacion', 'descripcionsensacion'], 'safe'],
         ];
     }
 
@@ -40,7 +40,7 @@ class SensacionSearch extends Sensacion
      */
     public function search($params)
     {
-        $query = Sensacion::find();
+        $query = sensacion::find();
 
         // add conditions that should always apply here
 
@@ -62,7 +62,8 @@ class SensacionSearch extends Sensacion
             'cantidadsensacion' => $this->cantidadsensacion,
         ]);
 
-        $query->andFilterWhere(['like', 'nombresensacion', $this->nombresensacion]);
+        $query->andFilterWhere(['like', 'nombresensacion', $this->nombresensacion])
+            ->andFilterWhere(['like', 'descripcionsensacion', $this->descripcionsensacion]);
 
         return $dataProvider;
     }

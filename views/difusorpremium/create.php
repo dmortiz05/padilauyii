@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Difusorpremium */
 
-$this->title = 'Create Difusorpremium';
-$this->params['breadcrumbs'][] = ['label' => 'Difusorpremia', 'url' => ['index']];
+$this->title = 'Nuevo Difusor Premium';
+$this->params['breadcrumbs'][] = ['label' => 'Difusor premium', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="difusorpremium-create">

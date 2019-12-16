@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Mini */
 
-$this->title = 'Update Mini: ' . $model->idmini;
-$this->params['breadcrumbs'][] = ['label' => 'Minis', 'url' => ['index']];
+$this->title = 'Modificar Mini: ' . $model->idmini;
+$this->params['breadcrumbs'][] = ['label' => 'Mini', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->idmini, 'url' => ['view', 'id' => $model->idmini]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Actualizar';
 ?>
 <div class="mini-update">
 

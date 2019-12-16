@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\AerosolSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Aerosols';
+$this->title = 'Aerosoles';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="aerosol-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Aerosol', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Nuevo Aerosol', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

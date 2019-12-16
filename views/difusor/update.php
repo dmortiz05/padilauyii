@@ -5,10 +5,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Difusor */
 
-$this->title = 'Update Difusor: ' . $model->iddifusor;
-$this->params['breadcrumbs'][] = ['label' => 'Difusors', 'url' => ['index']];
+$this->title = 'Modificar Difusor: ' . $model->iddifusor;
+$this->params['breadcrumbs'][] = ['label' => 'Difusores', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->iddifusor, 'url' => ['view', 'id' => $model->iddifusor]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Actualizar';
 ?>
 <div class="difusor-update">
 
