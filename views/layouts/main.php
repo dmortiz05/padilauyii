@@ -29,7 +29,10 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
+
+        //Html::img('ruta'['width'=flechita'250',]),
+        //'brandLabel' => Yii::$app->name,
+        'brandLabel' => Html::img('../../media/logo.png'),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
