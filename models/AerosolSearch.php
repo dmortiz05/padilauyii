@@ -18,7 +18,7 @@ class AerosolSearch extends Aerosol
     {
         return [
             [['idaerosol', 'cantidadaerosol'], 'integer'],
-            [['nombreaerosol', 'descripcionaerosol'], 'safe'],
+            [['nombreaerosol', 'descripcionaerosol', 'imagen'], 'safe'],
         ];
     }
 
@@ -63,7 +63,8 @@ class AerosolSearch extends Aerosol
         ]);
 
         $query->andFilterWhere(['like', 'nombreaerosol', $this->nombreaerosol])
-            ->andFilterWhere(['like', 'descripcionaerosol', $this->descripcionaerosol]);
+            ->andFilterWhere(['like', 'descripcionaerosol', $this->descripcionaerosol])
+            ->andFilterWhere(['like', 'imagen', $this->imagen]);
 
         return $dataProvider;
     }

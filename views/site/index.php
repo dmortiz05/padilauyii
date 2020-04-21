@@ -14,7 +14,7 @@
 <?php
 
 /* @var $this yii\web\View */
-
+/* https://forum.yiiframework.com/t/imagen-blob/38643 */
 $this->title = 'PADILAU';
 ?>
 <div class="site-index">
@@ -23,7 +23,7 @@ $this->title = 'PADILAU';
         <div class="five wide column">
             <div class="ui card">
                 <div class="image">
-                    <img src="../media/invicto.png">
+                    <img src="../../media/invicto.png">
                 </div>
                 <div class="content">
                     <a class="header" href="http://localhost:8080/index.php?r=aerosol">Aerosoles</a>

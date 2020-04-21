@@ -10,6 +10,7 @@ use Yii;
  * @property int $idaerosol
  * @property string $nombreaerosol
  * @property string $descripcionaerosol
+ * @property resource $imagen
  * @property int $cantidadaerosol
  */
 class Aerosol extends \yii\db\ActiveRecord
@@ -28,11 +29,11 @@ class Aerosol extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['idaerosol', 'nombreaerosol', 'descripcionaerosol', 'cantidadaerosol'], 'required'],
-            [['idaerosol', 'cantidadaerosol'], 'integer'],
+            [['nombreaerosol', 'descripcionaerosol', 'imagen', 'cantidadaerosol'], 'required'],
+            [['imagen'], 'string'],
+            [['cantidadaerosol'], 'integer'],
             [['nombreaerosol'], 'string', 'max' => 45],
             [['descripcionaerosol'], 'string', 'max' => 255],
-            [['idaerosol'], 'unique'],
         ];
     }
 
@@ -45,6 +46,7 @@ class Aerosol extends \yii\db\ActiveRecord
             
             'nombreaerosol' => 'Nombre',
             'descripcionaerosol' => 'Descripción',
+            'imagen' => 'Imagen',
             'cantidadaerosol' => 'Cantidad disponible',
         ];
     }

@@ -12,11 +12,11 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?php //<?= $form->field($model, 'idaerosol')->textInput() ?>
-
     <?= $form->field($model, 'nombreaerosol')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'descripcionaerosol')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'imagen')->textInput() ?>
 
     <?= $form->field($model, 'cantidadaerosol')->textInput() ?>
 

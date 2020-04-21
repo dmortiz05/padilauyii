@@ -32,6 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
             
             'nombreaerosol',
             'descripcionaerosol',
+            'imagen',
             'cantidadaerosol',
         ],
     ]) ?>

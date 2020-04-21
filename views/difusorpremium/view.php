@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\models\Difusorpremium */
 
 $this->title = $model->iddifusorpremium;
-$this->params['breadcrumbs'][] = ['label' => 'Difusorpremia', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Difusor Premium', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
