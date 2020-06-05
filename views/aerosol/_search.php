@@ -21,6 +21,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'descripcionaerosol') ?>
 
+    <?= $form->field($model, 'imagen') ?>
+
     <?= $form->field($model, 'cantidadaerosol') ?>
 
     <div class="form-group">

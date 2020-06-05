@@ -14,169 +14,229 @@
 <?php
 
 /* @var $this yii\web\View */
-
+/* https://forum.yiiframework.com/t/imagen-blob/38643 */
 $this->title = 'PADILAU';
 ?>
 <div class="site-index">
 
+    <br>
+
     <div class="ui grid centered">
-        <div class="five wide column">
-            <div class="ui card">
+        <div class="three wide ui horizontal cards">
+            <div class="card">
                 <div class="image">
-                    <img src="../media/invicto.png">
+                    <img src="/images/avatar2/large/matthew.png">
                 </div>
                 <div class="content">
-                    <a class="header" href="http://localhost:8080/index.php?r=aerosol">Aerosoles</a>
+                    <a class="header" href="http://localhost:8080/index.php?r=aerosol">Aerosol Saphirus 3000 disparos</a>
+                    <div class="meta">
+                        <span>$180</span>
+                    </div>
                     <div class="description">
-                        Más de 74 fragancias en aerosol para aromatizadores destinadas a hacer de tu día algo mejor.
+                        Más de 74 fragancias en a erosol para aromatizadores ambientales.
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="five wide column">
-            <div class="ui card">
+            <div class="card">
                 <div class="image">
-                    <img src="..\media\invicto.png">
+                    <img src="/images/avatar2/large/molly.png">
                 </div>
                 <div class="content">
-                    <a class="header" href="http://localhost:8080/index.php?r=difusor">Difusores</a>
+                    <a class="header" href="http://localhost:8080/index.php?r=aerosol">Aerosol Ambar</a>
+                    <div class="meta">
+                        <span>$150</span>
+                    </div>
                     <div class="description">
-                        Más de 53 fragancias en difusores aromáticos con varillas de rattan.
+                        Aromatizantes de ambientes.
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="five wide column">
-            <div class="ui card">
+            <div class="card">
                 <div class="image">
-                    <img src="..\media\aerosol_palosanto.png">
-                </div>
-                <div class="content">
-                    <a class="header" href="http://localhost:8080/index.php?r=textil">Textiles</a>
-                    <div class="description">
-                        Más de 57 esencias aromatizantes de destacado aroma para perfumar todas tus telas y ambientes.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="five wide column">
-            <div class="ui card">
-                <div class="image">
-                    <img src="..\media\aerosol_palosanto.png">
-                </div>
-                <div class="content">
-                    <a class="header" href="http://localhost:8080/index.php?r=routeauto">Route 66</a>
-                    <div class="description">
-                        Ahora podrás disfrutar de un perfume continuo en tu vehículo.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="five wide column">
-            <div class="ui card">
-                <div class="image">
-                    <img src="..\media\aerosol_palosanto.png">
+                    <img src="/images/avatar2/large/molly.png">
                 </div>
                 <div class="content">
                     <a class="header" href="http://localhost:8080/index.php?r=equipo">Equipos Aromatizadores</a>
+                    <div class="meta">
+                        <span>Precios varios</span>
+                    </div>
                     <div class="description">
                         Aromatizadores analógicos y digitales para mantener tu hogar siempre perfumado.
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="five wide column">
-            <div class="ui card">
+            <div class="card">
                 <div class="image">
-                    <img src="..\media\aerosol_palosanto.png">
+                    <img src="/images/avatar2/large/matthew.png">
                 </div>
                 <div class="content">
-                    <a class="header" href="http://localhost:8080/index.php?r=mini">Mini</a>
+                    <a class="header" href="http://localhost:8080/index.php?r=difusor">Difusor con varillas</a>
+                    <div class="meta">
+                        <span>$190</span>
+                    </div>
                     <div class="description">
-                        El aroma de siempre ahora en una fórmula concentrada, ideal para aromatizar autos y espacios pequeños.
+                        Difusores aromáticos con varillas de rattan.
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="five wide column">
-            <div class="ui card">
+            <div class="card">
                 <div class="image">
-                    <img src="..\media\aerosol_palosanto.png">
+                    <img src="/images/avatar2/large/matthew.png">
                 </div>
                 <div class="content">
-                    <a class="header" href="http://localhost:8080/index.php?r=sahumeriomasala">Sahumerios Masala</a>
-                    <div class="description">
-                        Exquisitas fragancias exclusivas de sahumerios de la India.
+                    <a class="header" href="http://localhost:8080/index.php?r=difusorpremium">Difusor Premium</a>
+                    <div class="meta">
+                        <span>$380</span>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="five wide column">
-            <div class="ui card">
-                <div class="image">
-                    <img src="..\media\aerosol_palosanto.png">
-
-                </div>
-                <div class="content">
-                    <a class="header" href="http://localhost:8080/index.php?r=difusorpremium">Difusores Premium</a>
                     <div class="description">
                         Una línea exclusiva para aquellos que buscan la perfección en aromatizadores.
                     </div>
                 </div>
             </div>
-        </div>
-    
-        <div class="five wide column">
-            <div class="ui card">
+            <div class="card">
                 <div class="image">
-                    <img src="..\media\aerosol_palosanto.png">
+                    <img src="/images/avatar2/large/molly.png">
+                </div>
+                <div class="content">
+                    <a class="header" href="http://localhost:8080/index.php?r=textil">Aromatizante textil</a>
+                    <div class="meta">
+                        <span>$150</span>
+                    </div>
+                    <div class="description">
+                        Aromatizantes de destacado aroma para perfumar todas tus telas y ambientes.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="/images/avatar2/large/matthew.png">
+                </div>
+                <div class="content">
+                    <a class="header" href="http://localhost:8080/index.php?r=">Sanitizantes</a>
+                    <div class="meta">
+                        <span>Precios varios</span>
+                    </div>
+                    <div class="description">
+                        Para manos y piel. Con agentes humectantes.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="/images/avatar2/large/molly.png">
+                </div>
+                <div class="content">
+                    <a class="header" href="http://localhost:8080/index.php?r=">Jabón para manos 250ml</a>
+                    <div class="meta">
+                        <span>$160</span>
+                    </div>
+                    <div class="description">
+                        Disponible en seis fragancias.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="/images/avatar2/large/molly.png">
+                </div>
+                <div class="content">
+                    <a class="header" href="http://localhost:8080/index.php?r=sensacion">Gel Saphirus Sensaciones</a>
+                    <div class="meta">
+                        <span>$140</span>
+                    </div>
+                    <div class="description">
+                        Mantené tus ambientes perfumados hasta por 30 días.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="/images/avatar2/large/matthew.png">
+                </div>
+                <div class="content">
+                    <a class="header" href="http://localhost:8080/index.php?r=routeauto">Route 66</a>
+                    <div class="meta">
+                        <span>$120</span>
+                    </div>
+                    <div class="description">
+                        Ahora podrás disfrutar de un perfume continuo en tu vehículo.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="/images/avatar2/large/molly.png">
+                </div>
+                <div class="content">
+                    <a class="header" href="http://localhost:8080/index.php?r=mini">Mini</a>
+                    <div class="meta">
+                        <span>$120</span>
+                    </div>
+                    <div class="description">
+                        Aromatizador para autos y espacios pequeños.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="/images/avatar2/large/matthew.png">
                 </div>
                 <div class="content">
                     <a class="header" href="http://localhost:8080/index.php?r=aceite">Aceites Escenciales</a>
+                    <div class="meta">
+                        <span>$130</span>
+                    </div>
                     <div class="description">
-                        Aceites Esenciales 100% puros y naturales en 18 fragancias.
+                        Aceites esenciales 100% puros y naturales.
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="five wide column">
-            <div class="ui card">
+            <div class="card">
                 <div class="image">
-                    <img src="..\media\aerosol_palosanto.png">
+                    <img src="/images/avatar2/large/matthew.png">
                 </div>
                 <div class="content">
-                    <a class="header" href="http://localhost:8080/index.php?r=latita">Latita Aromatizante</a>
+                    <a class="header" href="http://localhost:8080/index.php?r=">Sahumerios Ambar</a>
+                    <div class="meta">
+                        <span>$70</span>
+                    </div>
                     <div class="description">
-                        Aromatiza de manera práctica tu auto y otros espacios pequeños.
+                        Los mejores productos de India.
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="five wide column">
-            <div class="ui card">
+            <div class="card">
                 <div class="image">
-                    <img src="..\media\aerosol_palosanto.png">
+                    <img src="/images/avatar2/large/matthew.png">
                 </div>
                 <div class="content">
-                    <a class="header" href="http://localhost:8080/index.php?r=sensacion">Sensaciones</a>
+                    <a class="header" href="http://localhost:8080/index.php?r=">Body Splash</a>
+                    <div class="meta">
+                        <span>$360</span>
+                    </div>
                     <div class="description">
-                        Mantené tus ambientes perfumados hasta por 30 días con los nuevos Saphirus Sensaciones.
+                        MILANO cosmetics. Humectante.
                     </div>
                 </div>
             </div>
+            <div class="card">
+                <div class="image">
+                    <img src="/images/avatar2/large/molly.png">
+                </div>
+                <div class="content">
+                    <a class="header" href="http://localhost:8080/index.php?r=">Home Spray</a>
+                    <div class="meta">
+                        <span>$280</span>
+                    </div>
+                    <div class="description">
+                        Un nuevo concepto en aromatización.
+                    </div>
+                </div>
+            </div>
+            <!--<a class="header" href="http://localhost:8080/index.php?r=latita">Latita Aromatizante</a>-->
         </div>
-
-
     </div>
+    <br>
 </div>
 </body>
 </html>
