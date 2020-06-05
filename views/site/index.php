@@ -25,7 +25,7 @@ $this->title = 'PADILAU';
         <div class="three wide ui horizontal cards">
             <div class="card">
                 <div class="image">
-                    <img src="/images/avatar2/large/matthew.png">
+                    <img src="../../media/invicto.png">
                 </div>
                 <div class="content">
                     <a class="header" href="http://localhost:8080/index.php?r=aerosol">Aerosol Saphirus 3000 disparos</a>
